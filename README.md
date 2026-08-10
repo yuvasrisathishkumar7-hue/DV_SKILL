@@ -22,29 +22,25 @@ flowchart TD
     D --> E[SUMMARY STATISTICS CALCULATION]
     E --> F[EXPLORATORY DATA ANALYSIS]
     F --> G[INSIGHTS GENERATION]
+```
 
+## WEEK 2: RETAIL SALES VISUALIZATION, RELATIONSHIP ANALYSIS & BUSINESS INSIGHTS
 
-<h2>WEEK 2: RETAIL SALES VISUALIZATION, RELATIONSHIP ANALYSIS &amp; BUSINESS INSIGHTS</h2>
+### DESCRIPTION
 
-<h3>DESCRIPTION</h3>
-
-<p>
 This task focuses on visualizing retail sales and analyzing relationships between Sales, Profit, Discount, Quantity, and other numerical attributes using Python, Matplotlib, and Seaborn.
-</p>
 
-<h3>OBJECTIVES</h3>
+### OBJECTIVES
 
-<ul>
-  <li>Create bar plots and box plots to visualize sales and profit.</li>
-  <li>Analyze the relationship between Discount and Profit.</li>
-  <li>Identify discount levels that negatively affect profitability.</li>
-  <li>Generate a correlation heatmap for numerical attributes.</li>
-  <li>Analyze relationships between Sales, Profit, Discount, and Quantity.</li>
-  <li>Generate meaningful business insights from the visualizations.</li>
-  <li>Prepare the findings as a 1-page survey report.</li>
-</ul>
+- Create bar plots and box plots to visualize sales and profit.
+- Analyze the relationship between Discount and Profit.
+- Identify discount levels that negatively affect profitability.
+- Generate a correlation heatmap for numerical attributes.
+- Analyze relationships between Sales, Profit, Discount, and Quantity.
+- Generate meaningful business insights from the visualizations.
+- Prepare the findings as a 1-page survey report.
 
-<h3>WORKFLOW</h3>
+### WORKFLOW
 
 ```mermaid
 flowchart TD
@@ -56,3 +52,30 @@ flowchart TD
     F --> G[IDENTIFY BUSINESS INSIGHTS]
     G --> H[PREPARE 1-PAGE SURVEY REPORT]
 ```
+
+### VISUALIZATIONS
+
+- Bar Plot: Sales by Category
+- Bar Plot: Profit by Category
+- Box Plot: Sales Distribution
+- Box Plot: Profit Distribution
+- Scatter Plot: Discount vs Profit
+- Correlation Heatmap
+
+### BUSINESS INSIGHTS
+
+- Analyze the impact of discounts on profitability.
+- Compare sales and profit across different categories.
+- Identify relationships between numerical attributes.
+- Identify strong and weak-performing categories.
+- Support better pricing and discount decisions using data analysis.
+
+### KEY OUTCOMES
+
+- Visualized retail sales and profit using different plots.
+- Analyzed the relationship between Discount and Profit.
+- Identified discount levels that may negatively affect profitability.
+- Generated a correlation heatmap for numerical attributes.
+- Identified important relationships between Sales, Profit, Discount, and Quantity.
+- Extracted meaningful business insights.
+- Prepared the findings as a 1-page survey report.
