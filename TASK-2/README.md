@@ -91,6 +91,40 @@ Summarize the major findings, relationships, discount impact, and business recom
 
 # VISUALIZATIONS
 
+
+### VISUALIZATIONS FIGURE
+
+- **Sales by Category** – Bar Plot
+
+<img width="721" height="560" alt="image" src="https://github.com/user-attachments/assets/9f19545b-d726-42a0-a73e-524b29486a2e" />
+
+- **Sales Distribution** – Histogram
+
+<img width="704" height="470" alt="image" src="https://github.com/user-attachments/assets/0caa1325-170a-4e91-b198-2f0da3190ff2" />
+
+- **Profit by Category** – Bar Plot
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/8a328208-3a6a-4df3-b5c1-b190e3c886ec" />
+
+
+- **Sales Distribution by Category** – Bar Plot
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/c8a4ad75-f05e-4f6c-b449-69bf0e1c5158" />
+
+- **Profit Variation Across Categories** – Box Plot
+
+<img width="592" height="455" alt="image" src="https://github.com/user-attachments/assets/c285ca54-5e0e-4995-a584-1d64cf69f8f5" />
+
+- **Profit Distribution** – Box Plot
+<img width="592" height="416" alt="image" src="https://github.com/user-attachments/assets/add3d53a-1164-4376-a204-c526b8288a42" />
+
+- **Discount vs Profit** – Scatter Plot
+<img width="592" height="455" alt="image" src="https://github.com/user-attachments/assets/75cd3b42-7382-4701-b0ac-7c410c01a2ec" />
+
+- **Correlation Heatmap** – Heatmap
+<img width="609" height="518" alt="image" src="https://github.com/user-attachments/assets/178a94da-ff0e-492a-9c4a-8918dbc5c5d9" />
+
+
 | S.No | Graph Name | Graph Type |
 |---:|---|---|
 | 1 | **Sales by Category** | Bar Plot |
@@ -103,6 +137,8 @@ Summarize the major findings, relationships, discount impact, and business recom
 | 8 | **Correlation Heatmap** | Heatmap |
 
 ---
+
+
 
 # GRAPH EXPLANATIONS
 
