@@ -1,19 +1,18 @@
-````markdown
-## WEEK 1: SUPERSTORE SALES DATA UNDERSTANDING, CLEANING & EXPLORATORY ANALYSIS
+# WEEK 1: SUPERSTORE SALES DATA UNDERSTANDING, CLEANING & EXPLORATORY ANALYSIS
 
-### DESCRIPTION
+## DESCRIPTION
 
 This task focuses on understanding, cleaning, and analyzing the Superstore Sales dataset using Python and Pandas.
 
-### OBJECTIVES
+## OBJECTIVES
 
-- Load the dataset using Pandas.
-- Inspect the dataset using `head()`, `info()`, and `describe()`.
-- Convert Order Date and Ship Date columns into proper datetime format.
-- Clean and standardize categorical attributes such as Category, Sub-Category, and Segment.
-- Calculate initial summary statistics for numerical attributes.
+* Load the dataset using Pandas.
+* Inspect the dataset using `head()`, `info()`, and `describe()`.
+* Convert Order Date and Ship Date columns into proper datetime format.
+* Clean and standardize categorical attributes such as Category, Sub-Category, and Segment.
+* Calculate initial summary statistics for numerical attributes.
 
-### WORKFLOW
+## WORKFLOW
 
 ```mermaid
 flowchart TD
@@ -23,15 +22,15 @@ flowchart TD
     D --> E[SUMMARY STATISTICS CALCULATION]
     E --> F[EXPLORATORY DATA ANALYSIS]
     F --> G[INSIGHTS GENERATION]
-````
+```
 
-## WEEK 2: RETAIL SALES VISUALIZATION, RELATIONSHIP ANALYSIS & BUSINESS INSIGHTS
+# WEEK 2: RETAIL SALES VISUALIZATION, RELATIONSHIP ANALYSIS & BUSINESS INSIGHTS
 
-### DESCRIPTION
+## DESCRIPTION
 
 This task focuses on visualizing retail sales and analyzing relationships between Sales, Profit, Discount, Quantity, and other numerical attributes using Python, Matplotlib, and Seaborn.
 
-### OBJECTIVES
+## OBJECTIVES
 
 * Create bar plots, histograms, and box plots to visualize sales and profit.
 * Analyze the relationship between Discount and Profit.
@@ -41,7 +40,7 @@ This task focuses on visualizing retail sales and analyzing relationships betwee
 * Generate meaningful business insights from the visualizations.
 * Prepare the findings as a 1-page survey report.
 
-### WORKFLOW
+## WORKFLOW
 
 ```mermaid
 flowchart TD
@@ -55,7 +54,7 @@ flowchart TD
     H --> I[PREPARE 1-PAGE SURVEY REPORT]
 ```
 
-### VISUALIZATIONS
+## VISUALIZATIONS
 
 * **Sales by Category** – Bar Plot
 * **Sales Distribution** – Histogram
@@ -66,7 +65,7 @@ flowchart TD
 * **Discount vs Profit** – Scatter Plot
 * **Correlation Heatmap** – Heatmap
 
-### BUSINESS INSIGHTS
+## BUSINESS INSIGHTS
 
 * Analyze the impact of discounts on profitability.
 * Compare sales and profit across different categories.
@@ -74,7 +73,7 @@ flowchart TD
 * Identify strong and weak-performing categories.
 * Support better pricing and discount decisions using data analysis.
 
-### KEY OUTCOMES
+## KEY OUTCOMES
 
 * Visualized retail sales and profit using different plots.
 * Analyzed the distribution of Sales and Profit.
@@ -85,6 +84,3 @@ flowchart TD
 * Identified important relationships between Sales, Profit, Discount, and Quantity.
 * Extracted meaningful business insights.
 * Prepared the findings as a 1-page survey report.
-
-```
-```
