@@ -56,11 +56,47 @@ flowchart TD
 ### VISUALIZATIONS
 
 - Bar Plot: Sales by Category
+
+
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/88342bd1-7241-4af3-ab0a-0d6168038c54" />
+
+
+
 - Bar Plot: Profit by Category
+
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/1b242627-0413-4756-9c2e-179f1d40e1e2" />
+
+
+
 - Box Plot: Sales Distribution
+
+
+<img width="592" height="455" alt="image" src="https://github.com/user-attachments/assets/78fdca83-f55a-43d0-8fae-940983cd621c" />
+
+
+
 - Box Plot: Profit Distribution
+
+
+<img width="592" height="416" alt="image" src="https://github.com/user-attachments/assets/54fab5ba-f47a-4eb2-a5dd-69b07f1c3c1f" />
+
+
+
 - Scatter Plot: Discount vs Profit
+
+
+<img width="592" height="455" alt="image" src="https://github.com/user-attachments/assets/589cb1ab-fec1-4fb0-a27e-4a54b4738e38" />
+
+
+
 - Correlation Heatmap
+
+
+<img width="609" height="518" alt="image" src="https://github.com/user-attachments/assets/f07499c4-1586-4d21-b690-f7d2233433a5" />
+
+
 
 ### BUSINESS INSIGHTS
 
