@@ -457,3 +457,108 @@ flowchart TD
 
 * Prepared an executive summary with healthcare management recommendations.
 
+
+
+
+
+# WEEK 7: STUDENT PERFORMANCE DATA CLEANING, STATISTICAL ANALYSIS & OUTLIER DETECTION
+
+## DESCRIPTION
+
+This task focuses on cleaning and analyzing the Student Performance dataset using Python, Pandas, and NumPy. The dataset is analyzed to clean categorical features, calculate statistical measures for Math, Reading, and Writing scores, calculate total marks and percentage performance, and detect performance outliers.
+
+## OBJECTIVES
+
+* Load the Student Performance dataset using Pandas.
+
+* Inspect the dataset and identify missing values.
+
+* Clean and standardize categorical attributes such as Gender, Race/Ethnicity, Parental Level Of Education, Lunch, and Test Preparation Course.
+
+* Calculate mean, median, standard deviation, Q1, and Q3 for Math, Reading, and Writing scores.
+
+* Calculate total marks for each student.
+
+* Calculate percentage performance based on total marks.
+
+* Detect performance outliers using the IQR method.
+
+* Display the final cleaned dataset and its shape.
+
+## WORKFLOW
+
+```mermaid
+
+flowchart TD
+
+    A[LOAD STUDENT PERFORMANCE DATASET] --> B[DATA INSPECTION]
+
+    B --> C[CLEAN CATEGORICAL FEATURES]
+
+    C --> D[CALCULATE SCORE STATISTICS]
+
+    D --> E[CALCULATE TOTAL MARKS]
+
+    E --> F[CALCULATE PERCENTAGE]
+
+    F --> G[DETECT PERFORMANCE OUTLIERS]
+
+    G --> H[DISPLAY FINAL DATASET]
+
+    H --> I[DISPLAY FINAL DATASET SHAPE]
+
+````
+
+## STATISTICAL ANALYSIS
+
+* **Math Score** – Calculate mean, median, standard deviation, Q1, and Q3.
+
+* **Reading Score** – Calculate mean, median, standard deviation, Q1, and Q3.
+
+* **Writing Score** – Calculate mean, median, standard deviation, Q1, and Q3.
+
+* **Total Marks** – Calculate the combined marks of Math, Reading, and Writing.
+
+* **Percentage** – Calculate student percentage based on total marks.
+
+* **Performance Outliers** – Detect unusual scores using the IQR method.
+
+## PERFORMANCE ANALYSIS
+
+* Analyze the statistical measures of Math, Reading, and Writing scores.
+
+* Compare mean, median, and standard deviation across the three subjects.
+
+* Calculate total marks for each student.
+
+* Calculate percentage performance.
+
+* Identify unusual performance values using the IQR method.
+
+* Analyze student performance based on statistical measures.
+
+## KEY OUTCOMES
+
+* Successfully loaded and inspected the Student Performance dataset.
+
+* Identified missing values in the dataset.
+
+* Cleaned and standardized categorical features.
+
+* Replaced missing categorical values with **Unknown**.
+
+* Calculated mean, median, and standard deviation for subject scores.
+
+* Calculated Q1 and Q3 for Math, Reading, and Writing scores.
+
+* Calculated total marks for each student.
+
+* Calculated percentage performance.
+
+* Detected performance outliers using the IQR method.
+
+* Displayed the final cleaned dataset.
+
+* Displayed the final dataset shape.
+
+
