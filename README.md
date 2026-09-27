@@ -317,3 +317,143 @@ flowchart TD
 * Segmented patient demographics by medical condition.
 * Displayed the final cleaned dataset and its shape.
 
+
+
+
+
+# WEEK 6: HEALTHCARE DATA VISUALIZATION, COST RELATIONSHIP & POLICY INSIGHTS
+
+## DESCRIPTION
+
+This task focuses on visualizing and analyzing the Healthcare dataset using Python, Pandas, Matplotlib, and Seaborn. The dataset is analyzed to compare billing amounts across medical conditions and insurance providers, study patient admission trends, calculate hospital stay duration, and analyze relationships between age, stay duration, and total medical cost.
+
+## OBJECTIVES
+
+* Load and clean the healthcare dataset using Pandas.
+
+* Convert Date of Admission and Discharge Date columns into proper datetime format.
+
+* Convert Billing Amount into numeric format.
+
+* Remove records with missing required values.
+
+* Create a stacked bar chart to compare billing amounts across Medical Condition and Insurance Provider.
+
+* Create violin plots to analyze billing amount distributions.
+
+* Analyze patient admissions over time.
+
+* Analyze monthly patient admission trends.
+
+* Calculate hospital stay duration in days.
+
+* Generate a correlation matrix for Age, Stay Duration, and Total Medical Cost.
+
+* Create a correlation heatmap.
+
+* Prepare an executive summary with healthcare management recommendations.
+
+## WORKFLOW
+
+```mermaid
+flowchart TD
+
+    A[LOAD HEALTHCARE DATASET] --> B[DATA CLEANING]
+
+    B --> C[DATE AND BILLING CONVERSION]
+
+    C --> D[REMOVE MISSING VALUES]
+
+    D --> E[CREATE STACKED BAR CHART]
+
+    E --> F[CREATE VIOLIN PLOTS]
+
+    F --> G[ANALYZE PATIENT ADMISSIONS]
+
+    G --> H[ANALYZE MONTHLY ADMISSIONS]
+
+    H --> I[CALCULATE STAY DURATION]
+
+    I --> J[GENERATE CORRELATION MATRIX]
+
+    J --> K[CREATE CORRELATION HEATMAP]
+
+    K --> L[PREPARE EXECUTIVE SUMMARY]
+
+    L --> M[MANAGEMENT RECOMMENDATIONS]
+````
+
+## VISUALIZATIONS
+
+* **Billing Amount by Medical Condition and Insurance Provider** – Stacked Bar Chart
+
+* **Billing Amount by Medical Condition** – Violin Plot
+
+* **Billing Amount by Insurance Provider** – Violin Plot
+
+* **Patient Admissions Over Time** – Line Chart
+
+* **Monthly Patient Admissions** – Line Chart
+
+* **Age, Stay Duration and Total Medical Cost** – Correlation Heatmap
+
+## HEALTHCARE ANALYSIS
+
+* Compare billing amounts across different medical conditions.
+
+* Analyze billing differences across insurance providers.
+
+* Analyze billing amount distributions using violin plots.
+
+* Analyze patient admissions over time.
+
+* Analyze monthly patient admission patterns.
+
+* Calculate hospital stay duration in days.
+
+* Analyze the relationship between Age, Stay Duration, and Total Medical Cost.
+
+* Use admission and billing patterns to support healthcare management decisions.
+
+## EXECUTIVE SUMMARY
+
+* Calculate the average billing amount.
+
+* Calculate the average hospital stay duration.
+
+* Calculate the total number of admissions.
+
+* Analyze billing patterns across medical conditions and insurance providers.
+
+* Analyze patient admission trends over time and by month.
+
+* Study the relationship between age, stay duration, and total medical cost.
+
+* Provide healthcare management recommendations based on the analysis.
+
+## KEY OUTCOMES
+
+* Successfully loaded and cleaned the healthcare dataset.
+
+* Converted date and billing attributes into proper formats.
+
+* Removed records with missing required values.
+
+* Compared billing amounts across medical conditions and insurance providers.
+
+* Created a stacked bar chart for billing analysis.
+
+* Generated violin plots for billing amount distributions.
+
+* Visualized patient admissions over time.
+
+* Analyzed monthly patient admission trends.
+
+* Calculated hospital stay duration.
+
+* Generated a correlation matrix for Age, Stay Duration, and Total Medical Cost.
+
+* Created a correlation heatmap.
+
+* Prepared an executive summary with healthcare management recommendations.
+
