@@ -238,3 +238,82 @@ flowchart TD
 
 
 
+
+# WEEK 5: HEALTHCARE DATA CLEANING, ADMISSION ANALYSIS & DEMOGRAPHIC SEGMENTATION
+
+## DESCRIPTION
+
+This task focuses on cleaning and analyzing the Healthcare dataset using Python and Pandas. The dataset is analyzed to handle missing values, convert date attributes, categorize admissions by urgency, calculate hospital stay duration, analyze billing amounts, and segment patient demographics by medical condition.
+
+## OBJECTIVES
+
+* Load the healthcare dataset using Pandas.
+* Inspect the dataset using `head()`, `shape`, `info()`, and missing value analysis.
+* Clean missing values in the **Medical Condition** attribute.
+* Convert **Date of Admission** and **Discharge Date** columns into proper datetime format.
+* Categorize admissions into **Emergency, Elective, and Urgent**.
+* Calculate hospital stay duration in days.
+* Calculate summary statistics for **Billing Amount**.
+* Calculate summary statistics for **Hospital Stay Days**.
+* Segment patient demographics based on **Medical Condition**.
+* Display the final cleaned dataset and its shape.
+
+## WORKFLOW
+
+```mermaid
+flowchart TD
+    A[LOAD DATASET] --> B[DATA INSPECTION]
+    B --> C[MISSING VALUE ANALYSIS]
+    C --> D[CLEAN MEDICAL CONDITION]
+    D --> E[DATE FORMAT CONVERSION]
+    E --> F[ADMISSION URGENCY CATEGORIZATION]
+    F --> G[CALCULATE HOSPITAL STAY]
+    G --> H[ANALYZE BILLING AMOUNT]
+    H --> I[ANALYZE HOSPITAL STAY]
+    I --> J[SEGMENT DEMOGRAPHICS]
+    J --> K[DISPLAY FINAL DATASET]
+````
+
+## DATA ANALYSIS
+
+* **Missing Values** – Identify and handle missing values in the dataset.
+* **Admission Urgency** – Categorize admissions as Emergency, Elective, and Urgent.
+* **Billing Amount** – Generate descriptive statistics for patient billing amounts.
+* **Hospital Stay Days** – Calculate and summarize hospital stay duration.
+* **Medical Condition** – Group patients based on their medical condition.
+* **Age Demographics** – Calculate count, mean, minimum, and maximum age for each medical condition.
+
+## STATISTICAL ANALYSIS
+
+* **Billing Amount** – Analyze billing amount using descriptive statistics.
+* **Hospital Stay Days** – Analyze hospital stay duration using descriptive statistics.
+* **Patient Count** – Count patients under each medical condition.
+* **Average Age** – Calculate the average age for each medical condition.
+* **Minimum Age** – Identify the minimum age for each medical condition.
+* **Maximum Age** – Identify the maximum age for each medical condition.
+
+## KEY ANALYSIS
+
+* Inspect the healthcare dataset using Pandas.
+* Identify missing values in the dataset.
+* Replace missing values in **Medical Condition** with **Unknown**.
+* Convert **Date of Admission** and **Discharge Date** into datetime format.
+* Categorize admissions based on **Admission Type**.
+* Calculate hospital stay duration in days.
+* Analyze **Billing Amount** using descriptive statistics.
+* Analyze **Hospital Stay Days** using descriptive statistics.
+* Segment patient demographics based on **Medical Condition**.
+* Display the final cleaned dataset and dataset shape.
+
+## KEY OUTCOMES
+
+* Successfully loaded and inspected the healthcare dataset.
+* Identified and handled missing medical condition values.
+* Converted admission and discharge dates into proper datetime format.
+* Categorized admissions into Emergency, Elective, and Urgent.
+* Calculated hospital stay duration in days.
+* Generated summary statistics for billing amounts.
+* Generated summary statistics for hospital stay duration.
+* Segmented patient demographics by medical condition.
+* Displayed the final cleaned dataset and its shape.
+
