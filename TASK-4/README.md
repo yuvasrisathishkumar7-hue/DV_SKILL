@@ -133,6 +133,7 @@ Generate a financial summary containing return statistics, price statistics, tra
 
 
 
+
 <img width="884" height="365" alt="image" src="https://github.com/user-attachments/assets/3be27315-fae6-42f3-9f67-1a7e4e372ee9" />
 
 
