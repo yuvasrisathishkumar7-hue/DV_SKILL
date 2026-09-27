@@ -152,3 +152,89 @@ flowchart TD
 * Calculated mean, median, variance, and standard deviation of stock returns.
 * Visualized trading volume trends and daily return distribution.
 * Generated a final summary of stock returns and trading activity.
+
+
+
+# WEEK 4: STOCK MARKET PRICE, MOVING AVERAGE & RETURN ANALYSIS
+
+## DESCRIPTION
+
+This task focuses on analyzing Shopify stock market data using Python, Pandas, Matplotlib, and Seaborn. The dataset is analyzed to visualize OHLC prices and trading volume, calculate daily percentage returns, study 20-day and 50-day moving averages, analyze daily return distributions using histogram and KDE plots, identify high-volatility days, and prepare a financial summary report.
+
+## OBJECTIVES
+
+* Load the Shopify stock market dataset using Pandas.
+* Clean the **Open, High, Low, Close, and Volume** attributes.
+* Calculate daily percentage returns using Open and Close prices.
+* Create line plots for Open, High, Low, and Close prices over time.
+* Visualize trading volume trends over time.
+* Calculate 20-day and 50-day moving averages of closing prices.
+* Compare daily closing prices with 20-day and 50-day moving averages.
+* Generate histogram and KDE plots for daily returns.
+* Calculate mean, variance, and standard deviation of stock returns.
+* Identify high-volatility days using the ±2 standard deviation method.
+* Prepare a financial summary report describing stock stability and volatility.
+
+## WORKFLOW
+
+```mermaid
+flowchart TD
+    A[LOAD DATASET] --> B[DATA CLEANING]
+    B --> C[CALCULATE DAILY RETURNS]
+    C --> D[VISUALIZE OHLC PRICES]
+    D --> E[ANALYZE TRADING VOLUME]
+    E --> F[CALCULATE 20-DAY MOVING AVERAGE]
+    F --> G[CALCULATE 50-DAY MOVING AVERAGE]
+    G --> H[COMPARE CLOSING PRICE WITH MOVING AVERAGES]
+    H --> I[VISUALIZE RETURN DISTRIBUTION]
+    I --> J[CALCULATE RETURN STATISTICS]
+    J --> K[IDENTIFY HIGH-VOLATILITY DAYS]
+    K --> L[GENERATE FINANCIAL SUMMARY]
+````
+
+## VISUALIZATIONS
+
+* **OHLC Prices Over Time** – Line Chart
+* **Trading Volume Over Time** – Line Chart
+* **Closing Price with 20-Day Moving Average** – Line Chart
+* **Closing Price with 50-Day Moving Average** – Line Chart
+* **Closing Price with 20-Day and 50-Day Moving Averages** – Line Chart
+* **Daily Return Distribution** – Histogram and KDE Plot
+
+## STATISTICAL ANALYSIS
+
+* **Mean** – Average daily stock return.
+* **Variance** – Measures the spread of daily stock returns.
+* **Standard Deviation** – Measures the variation in daily stock returns.
+* **Highest Closing Price** – Maximum closing price recorded in the dataset.
+* **Lowest Closing Price** – Minimum closing price recorded in the dataset.
+* **Average Trading Volume** – Average trading volume during the period.
+* **Maximum Trading Volume** – Highest trading volume recorded in the dataset.
+
+## KEY ANALYSIS
+
+* Analyze stock price movements using Open, High, Low, and Close prices.
+* Calculate daily percentage returns using Open and Close prices.
+* Analyze trading volume trends over time.
+* Compare closing prices with 20-day and 50-day moving averages.
+* Analyze the distribution of daily stock returns using histogram and KDE plots.
+* Identify high-volatility days using the ±2 standard deviation method.
+* Analyze stock return variation and stability.
+* Prepare a financial summary using stock price, return, and trading volume statistics.
+
+## KEY OUTCOMES
+
+* Successfully cleaned the Shopify stock market price and volume attributes.
+* Calculated daily percentage returns.
+* Visualized OHLC prices over time.
+* Analyzed trading volume trends.
+* Calculated 20-day and 50-day moving averages.
+* Compared closing prices with moving averages.
+* Visualized daily return distribution using histogram and KDE plots.
+* Calculated mean, variance, and standard deviation of stock returns.
+* Identified high-volatility trading days.
+* Analyzed stock return variation and stability.
+* Generated a financial summary report of stock price, returns, and trading volume.
+
+
+
