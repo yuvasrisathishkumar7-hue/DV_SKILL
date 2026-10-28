@@ -1,4 +1,4 @@
-# TASK 7: STUDENT PERFORMANCE VISUALIZATION, SCORE RELATIONSHIP & EDUCATIONAL EQUITY INSIGHTS
+# TASK 8: STUDENT PERFORMANCE VISUALIZATION, SCORE RELATIONSHIP & EDUCATIONAL EQUITY INSIGHTS
 
 ## PROJECT OVERVIEW
 
@@ -94,11 +94,77 @@ Developed recommendations focused on equal learning opportunities, academic supp
 ## DATA VISUALIZATIONS
 
 1. **Average Test Scores by Parental Education and Lunch Type** — Grouped Bar Chart
+
+
+
+<img width="1177" height="590" alt="image" src="https://github.com/user-attachments/assets/a72391d9-36cc-4758-a828-7cd6ec68478d" />
+
+
+
+
+
 2. **Math Score Variance by Test Preparation** — Box Plot
+
+
+
+<img width="850" height="547" alt="image" src="https://github.com/user-attachments/assets/dfd3f2b7-72d4-4a38-ac73-6a0bba65a63e" />
+
+
+
+
+
 3. **Math vs Reading Scores** — Scatter Plot
+
+
+
+
+<img width="540" height="470" alt="image" src="https://github.com/user-attachments/assets/a5fe7dce-e97b-4add-bc28-6370c249c791" />
+
+
+
+
+
+
 4. **Math vs Writing Scores** — Scatter Plot
+
+
+
+
+
+<img width="540" height="470" alt="image" src="https://github.com/user-attachments/assets/d523e44b-73db-4861-9257-5305f695a6d7" />
+
+
+
+
+
+
 5. **Reading vs Writing Scores** — Scatter Plot
+
+
+
+
+
+
+<img width="540" height="470" alt="image" src="https://github.com/user-attachments/assets/1e81f278-7baa-418f-b9ae-492e556c6fe7" />
+
+
+
+
+
+
+
+
 6. **Correlation Heatmap of Test Scores** — Heatmap
+
+
+
+
+<img width="663" height="490" alt="image" src="https://github.com/user-attachments/assets/5abf5c05-05b0-4744-b29d-c7162ff510c4" />
+
+
+
+
+
 
 ## KEY ANALYSIS
 
