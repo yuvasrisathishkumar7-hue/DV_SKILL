@@ -2,24 +2,21 @@
 
 ## PROJECT OVERVIEW
 
-This project focuses on performing student performance data visualization and analysis using Python, Pandas, Matplotlib, and Seaborn. The dataset is analyzed to compare average test scores across parental education levels and lunch types, evaluate score variance based on test preparation, study relationships between Math, Reading, and Writing scores, and prepare educational equity and policy recommendations.
+This project focuses on analyzing and visualizing student performance data using Python, Pandas, Matplotlib, and Seaborn. It examines average test scores across parental education levels and lunch types, compares Math score distributions based on test preparation, and explores relationships between Math, Reading, and Writing scores.
 
----
+The project also highlights potential educational performance gaps and provides recommendations to improve educational equity and access to learning resources.
 
 ## OBJECTIVES
 
-- Load the student performance dataset.
-- Prepare the required student performance attributes.
+- Load and prepare the student performance dataset.
 - Compare average test scores across parental education levels and lunch types.
-- Create grouped bar charts for average Math, Reading, and Writing scores.
-- Create box plots to compare score variance between students who completed test preparation and those who did not.
-- Create scatter plots for Math, Reading, and Writing scores.
-- Generate a correlation matrix for Math, Reading, and Writing scores.
+- Create a grouped bar chart for average Math, Reading, and Writing scores.
+- Analyze Math score variance based on test preparation.
+- Visualize relationships between Math, Reading, and Writing scores using scatter plots.
+- Generate a correlation matrix for the three subjects.
 - Create a correlation heatmap.
-- Prepare an educational equity summary.
+- Identify potential educational equity gaps.
 - Provide educational policy recommendations.
-
----
 
 ## TECHNOLOGIES USED
 
@@ -29,13 +26,13 @@ This project focuses on performing student performance data visualization and an
 - Matplotlib
 - Seaborn
 
----
-
 ## DATASET
 
-**DATASET NAME:** `StudentsPerformance.csv`
+**Dataset Name:** `Studentperformance_preprecessed.csv`
 
-The dataset contains information such as:
+The dataset contains student demographic information, parental education, lunch type, test preparation status, and academic scores.
+
+### Key Attributes
 
 - Gender
 - Race/Ethnicity
@@ -45,139 +42,129 @@ The dataset contains information such as:
 - Math Score
 - Reading Score
 - Writing Score
-
----
+- Total Marks
+- Percentage
 
 ## PROJECT WORKFLOW
 
 ### STEP 1: IMPORT REQUIRED LIBRARIES
 
-Import the necessary Python libraries for data analysis and visualization.
+Imported Pandas for data manipulation, Matplotlib for plotting, and Seaborn for statistical visualization.
 
-### STEP 2: LOAD THE STUDENT PERFORMANCE DATASET
+### STEP 2: LOAD THE DATASET
 
-Load the `StudentsPerformance.csv` file using Pandas.
+Loaded the preprocessed student performance dataset into a Pandas DataFrame using `read_csv()`.
 
 ### STEP 3: PREPARE STUDENT PERFORMANCE DATA
 
-Select the required attributes related to parental education, lunch, test preparation, and test scores.
+Selected the relevant attributes for analyzing parental education, lunch type, test preparation, and subject-wise scores.
 
-### STEP 4: CREATE GROUPED BAR CHART
+### STEP 4: CREATE A GROUPED BAR CHART
 
-Calculate the average Math, Reading, and Writing scores and create a grouped bar chart comparing scores across **parental education levels and lunch types**.
+Calculated the average Math, Reading, and Writing scores for combinations of parental education levels and lunch types. Displayed the results using a grouped bar chart.
 
-### STEP 5: CREATE BOX PLOT
+### STEP 5: CREATE A BOX PLOT
 
-Create box plots to compare score variance between students who **completed test preparation** and those who **did not complete test preparation**.
+Used a box plot to compare Math score distributions between students who completed test preparation and those who did not.
 
 ### STEP 6: CREATE SCATTER PLOTS
 
-Create scatter plots to visualize relationships between:
+Created three scatter plots to visualize subject-wise score relationships:
 
-- Math and Reading
-- Math and Writing
-- Reading and Writing
+- Math vs Reading
+- Math vs Writing
+- Reading vs Writing
 
-### STEP 7: GENERATE CORRELATION MATRIX
+### STEP 7: GENERATE A CORRELATION MATRIX
 
-Generate a correlation matrix using **Math, Reading, and Writing scores**.
+Calculated the correlation coefficients among Math, Reading, and Writing scores using Pandas.
 
-### STEP 8: CREATE CORRELATION HEATMAP
+### STEP 8: CREATE A CORRELATION HEATMAP
 
-Create a heatmap to visualize the relationships between Math, Reading, and Writing scores.
+Used Seaborn to visualize the correlation matrix, making it easier to identify the strength and direction of relationships between subjects.
 
 ### STEP 9: ANALYZE EDUCATIONAL EQUITY
 
-Analyze differences in student performance based on parental education, lunch type, and test preparation.
+Examined differences in academic performance across parental education levels, lunch types, and test preparation groups to identify potential areas requiring additional educational support.
 
 ### STEP 10: PREPARE EDUCATIONAL POLICY RECOMMENDATIONS
 
-Prepare recommendations based on academic performance patterns and educational equity findings.
-
----
+Developed recommendations focused on equal learning opportunities, academic support, accessible test preparation, nutrition, and continuous performance monitoring.
 
 ## DATA VISUALIZATIONS
 
-- **Average Test Scores by Parental Education and Lunch Type** – Grouped Bar Chart
-- **Score Variance by Test Preparation** – Box Plot
-- **Math vs Reading Scores** – Scatter Plot
-- **Math vs Writing Scores** – Scatter Plot
-- **Reading vs Writing Scores** – Scatter Plot
-- **Math, Reading and Writing Relationships** – Correlation Heatmap
-
----
+1. **Average Test Scores by Parental Education and Lunch Type** — Grouped Bar Chart
+2. **Math Score Variance by Test Preparation** — Box Plot
+3. **Math vs Reading Scores** — Scatter Plot
+4. **Math vs Writing Scores** — Scatter Plot
+5. **Reading vs Writing Scores** — Scatter Plot
+6. **Correlation Heatmap of Test Scores** — Heatmap
 
 ## KEY ANALYSIS
 
-- Compare average test scores across different parental education levels.
-- Compare average test scores based on lunch type.
-- Analyze score variance between students with and without test preparation.
-- Analyze the relationship between Math and Reading scores.
-- Analyze the relationship between Math and Writing scores.
-- Analyze the relationship between Reading and Writing scores.
-- Identify relationships using correlation analysis.
-- Identify possible educational inequalities based on the analysis.
-
----
+- Compared average subject scores across parental education levels and lunch types.
+- Examined the distribution and variability of Math scores by test preparation status.
+- Visualized the relationships between Math, Reading, and Writing scores.
+- Calculated correlation coefficients to measure relationships between subjects.
+- Explored potential differences in academic performance across student groups.
+- Identified areas where additional educational support may be beneficial.
 
 ## EDUCATIONAL EQUITY INSIGHTS
 
-- Students from different parental education backgrounds may show differences in academic performance.
-- Lunch type can indicate differences in students' socioeconomic conditions.
-- Students who complete test preparation may show better academic performance.
-- Strong relationships between Math, Reading, and Writing scores indicate that performance across subjects is connected.
-- Students requiring additional academic support should be identified and supported.
+- Parental education levels may be associated with differences in average student performance.
+- Lunch categories may provide insight into differences in students' access to resources, although lunch type alone does not establish a student's socioeconomic status.
+- Test preparation may be associated with differences in academic performance.
+- Relationships among Math, Reading, and Writing scores can help educators understand patterns in subject-wise achievement.
+- Students who experience academic difficulties may benefit from additional learning support and mentoring.
 
----
+These insights should be interpreted as patterns in the dataset rather than proof of direct cause-and-effect relationships.
 
 ## EDUCATIONAL POLICY RECOMMENDATIONS
 
 ### 1. PROVIDE FREE ACADEMIC SUPPORT
 
-Schools should provide additional classes, tutoring, and learning materials for students who need academic assistance.
+Offer additional classes, tutoring, and learning materials to students who require academic assistance.
 
 ### 2. IMPROVE ACCESS TO TEST PREPARATION
 
-Test preparation programs should be available to all students regardless of their economic background.
+Provide accessible test preparation programs to all students, regardless of their financial background.
 
 ### 3. PROVIDE NUTRITIONAL SUPPORT
 
-Schools should provide nutritious meals to reduce the effect of socioeconomic differences on student learning.
+Ensure access to nutritious meals to support student well-being and learning.
 
-### 4. SUPPORT DISADVANTAGED STUDENTS
+### 4. SUPPORT STUDENTS REQUIRING ADDITIONAL HELP
 
-Mentoring and counselling programs should be provided to students who require additional academic support.
+Introduce mentoring, counselling, and individualized learning plans where appropriate.
 
-### 5. ENSURE EQUAL LEARNING RESOURCES
+### 5. ENSURE EQUAL ACCESS TO LEARNING RESOURCES
 
-Students should have equal access to textbooks, computers, internet facilities, and other learning resources.
+Improve access to textbooks, computers, internet facilities, and digital learning materials.
 
 ### 6. MONITOR STUDENT PERFORMANCE
 
-Schools should regularly analyse student performance data to identify achievement gaps and provide timely support.
-
----
+Regularly analyze academic performance to identify achievement gaps and provide timely support.
 
 ## EXECUTIVE SUMMARY
 
-- Compare average Math, Reading, and Writing scores.
-- Analyze performance across parental education levels and lunch types.
-- Compare students who completed and did not complete test preparation.
-- Analyze relationships between Math, Reading, and Writing scores.
-- Identify educational performance gaps.
-- Support equal access to academic resources.
-- Provide recommendations for improving educational equity.
+This project applies data visualization and correlation analysis to understand student performance patterns. It compares average scores across parental education and lunch categories, examines Math score distributions by test preparation status, and visualizes relationships among Math, Reading, and Writing scores.
 
----
+The findings can help educators explore potential performance gaps and plan appropriate academic support. The project emphasizes equal learning opportunities and evidence-based educational decisions.
 
 ## KEY OUTCOMES
 
-- Successfully loaded the student performance dataset.
-- Compared average scores across parental education levels and lunch types.
-- Created grouped bar charts for score comparison.
-- Created box plots for test preparation analysis.
-- Created scatter plots for subject-wise score relationships.
-- Generated a correlation matrix.
+- Successfully loaded the preprocessed student performance dataset.
+- Compared average Math, Reading, and Writing scores across parental education and lunch categories.
+- Created a grouped bar chart for average score comparison.
+- Created a box plot to examine Math score distributions by test preparation.
+- Generated three scatter plots for subject-wise score relationships.
+- Calculated a correlation matrix for Math, Reading, and Writing scores.
 - Created a correlation heatmap.
-- Identified important educational equity factors.
+- Explored potential educational equity factors.
 - Prepared educational policy recommendations.
+
+## CONCLUSION
+
+The project demonstrates how Python-based data analysis and visualization can be used to explore student academic performance. Grouped bar charts, box plots, scatter plots, and correlation heatmaps provide different perspectives on score distributions and relationships.
+
+The analysis can support educators in identifying areas for improvement and developing inclusive learning strategies. Further investigation using additional student background information would help provide a more comprehensive understanding of educational equity.
